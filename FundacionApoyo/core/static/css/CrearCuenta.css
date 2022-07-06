@@ -1,0 +1,39 @@
+:root{
+    --color-azul: #00bfff;
+    --color-azulclaro:#33ccff;
+    --color-blanco:#fff;
+    --color-gris:grey;
+    --color-negro:#000;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    background-color: var(--color-gris);
+    color: var(--color-negro);
+    letter-spacing: .05rem; 
+}
+
+.bg-ligth{
+    background-color: var(--color-blanco)!important;
+}
+
+.bg-blue{
+    background-color: var(--color-azul)!important;
+}
+
+.p-6{
+    padding: 4rem 7rem;
+}
+
+.contact-box{
+    padding: 3rem;
+}
+
+
+.btn-primary{
+    border: 2px solid var(--color-azul);
+
+}
+
